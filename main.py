@@ -19,7 +19,7 @@ def show_products():
 def start():
     # main menu with options to list all products, show total amount in the store, make an order, or exit
     while True:
-        print("\n")
+        print("")
         print("  STORE MENU  ")
         print("---------------------------------")
         print("1. List all products in the store")
