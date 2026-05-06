@@ -34,7 +34,7 @@ class Store:
         return active_products
 
 
-    def order(self, shopping_list):
+    def make_order(self, shopping_list):
         total_price = 0
         for product, quantity in shopping_list:
             total_price += product.buy(quantity)
