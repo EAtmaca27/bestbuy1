@@ -1,4 +1,5 @@
-import products, store
+import products
+import store
 
 
 # setup initial stock of inventory
